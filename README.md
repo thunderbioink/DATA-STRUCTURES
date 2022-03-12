@@ -1,4 +1,4 @@
-# WELCOME
+# WELCOME TO DATA STRUCTURES
 
 Hello World! Learning how to program is always an exciting journey. In this journey, you will eventually hit the intimidating yet very important topic of **Data Structures**. 
 
@@ -41,7 +41,8 @@ Tools and programming languages used for Data Structures module:
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
+Websites that can help you view other ways to understand and solve programming problems with data structures:
+
 * [10 Most Common Data Structures](https://www.geeksforgeeks.org/introduction-to-data-structures-10-most-commonly-used-data-structures/)
 * [Stacks in Python](https://www.geeksforgeeks.org/stack-in-python/#:~:text=A%20stack%20is%20a%20linear,often%20called%20push%20and%20pop.)
 * [Linked Lists in Python](https://www.geeksforgeeks.org/python-library-for-linked-list/)
@@ -57,11 +58,5 @@ Before diving into Data Structures, you may find helpful to review the concepts 
 * [Classes](https://docs.python.org/3/tutorial/classes.html#:~:text=Python%20classes%20provide%20all%20the,class%20with%20the%20same%20name.)
 * [O-Notation](https://towardsdatascience.com/introduction-to-big-o-notation-820d2e25d3fd)
 
-
-
-
 #
-[Back to the top.](#welcome)
-
-
-
+[Back to the top.](#welcome-to-data-structures)
