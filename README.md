@@ -1,6 +1,6 @@
 # WELCOME TO DATA STRUCTURES
 
-Hello World! Learning how to program is always an exciting journey. In this journey, you will eventually hit the intimidating yet very important topic of **Data Structures**. 
+Hello World! Learning how to program is always an exciting journey. In this journey, you will eventually hit the intimidating yet very important topic of **Data Structures**. A topic that will teach you how data can be stored, manipulated, removed, and displayed using efficient code structures.
 
 After learning them and how to incorporate them in your programs, you will love them, and realize how much your programming and problem solving skills have increased.
 
@@ -45,9 +45,6 @@ In this repository we will cover three different Data Structures:
     - [Trees Problem 1](3.TREE/2.TREE_PROBLEM_1.py)
     - [Trees Problem 2](3.TREE/3.TREE_PROBLEM_2.py)
         - [Solution Trees Problem 2](3.TREE/4.SOLUTION_PROBLEM_2.py)
-
-<!-- 
- ![MENU](/IMAGES/menu.png) -->
 
 # Development Environment
 
