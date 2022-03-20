@@ -4,7 +4,7 @@ PROBLEM 1 USING THE STACKS DATA STRUCTURE:
 This is the Expanded problem used in the Introductory
 README file for Stacks where we will push() and pop()
 a list of LEGO colored blocks into an empty list, and display the
-different array sizes and final OUTPUTS.
+different array sizes and final OUTPUTS. There will be three different OUTPUTS.
 
 The Operations used are all O(1): stack.push(x), 
 stack.pop(), and len(stack)
