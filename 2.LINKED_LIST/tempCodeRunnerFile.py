@@ -5,6 +5,7 @@ You will be able to solve Problem #2 with this example.
 
 The operators we will be handling are the following:
 Add Head song - insert(Node)
+Add Tail Song - insert(Node)
 
 """
 # Playlist Class will be your LinkedList
@@ -73,12 +74,5 @@ class PlayList():
         return ", ".join(self)
         
 print("\n==============\n")
-print("\n MUSIC PLAYER QUEUE: \n")
-music_player = PlayList()
-music_player.add_first_song("Hey Jude - The Beatles")
-music_player.add_first_song("Teen Spirit - Nirvana")
-music_player.add_first_song("Bohemian Rhapsody - Queen ")
-music_player.add_first_song("Lullaby - Atlas Bound")
-music_player.add_first_song("Space Song - Beach House")
-print(music_player)
-print("\n==============\n")
+print("""
+      
