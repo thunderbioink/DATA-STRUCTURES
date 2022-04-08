@@ -1,15 +1,43 @@
 """
-Notice that this is the same code in Problem #1. The goal for you is add songs to the playlist using 
-the method add_next_song().
+If you did not read the end of PROBLEM #1, here is the overview of what is expected 
+to solve  PROBLEM #2:
 
-This method was not existent in the 1st problem. This is so you can separate your songs from the 1st
-song in the playlist, and add them as a next_song and not a first_song of
-You will need to complete the add_last_song() method and add_next_song() method to distinguish the position
-of each song in the Player Queue:
+Observe that the output of this playlist is backwards. It's what we need it to be,
+however, we want the first song on the list to be "Hey Jude - The Beatles" and the last song
+to be Space Song - Beach House
+
+Right now, each instance of adding first_song replaces the first_song, and pushes to the end
+of the list the original first song. 
+
+You will need to solve add_last_song() method to have the playlist music the order in which
+we actually want the music to display:
+
+Current OUTPUT:
+
+==============
 
 
-You will have hints provided and a Solution to the rest of the problem. 
+ MUSIC PLAYER QUEUE:
+
+Hey Jude - The Beatles
+
+==============
+
+EXPECTED OUTPUT PROBLEM #2:
+
+==============
+
+
+ MUSIC PLAYER QUEUE: 
+
+Hey Jude - The Beatles, Teen Spirit - Nirvana, Bohemian Rhapsody - Queen , Lullaby - Atlas Bound, Space Song - Beach House
+
+==============
+
+You should be able to solve this using the hints provided and Problem #1. Use the solution to comapre and contrast your solution.
+
 """
+
 # Playlist Class will be your LinkedList
 class PlayList():
     # Class Song will hold the Nodes or songs in Playlist:
@@ -61,7 +89,30 @@ class PlayList():
             
             # Here, first song points to new_song:
             self.first_song = new_song 
-    #This method will iterate through input and yield all to user 
+    
+    def add_last_song (self, song_name): #Method to be solved is here:
+        # Same to adding head, create new_song:
+        new_song = PlayList.Song(song_name)
+        
+        
+        if self.last_song is None:
+            # INSERT CODE BELOW: Self tail for last song:
+            
+            
+            # INSERT CODE BELOW: Self head for last song:
+            pass#remove this line before running with solution    
+            
+        else:
+            # INSERT CODE BELOW: Point new song PREVIOUS  to first_song(head):
+            
+            
+            # INSERT CODE BELOW: Point new song NEXT to new_song:
+            
+            
+            #INSERT CODE BELOW: First song now points to new_song:
+            
+            pass#remove this line before running with solution         
+    
     def __iter__(self):
         
         song = self.first_song
@@ -79,9 +130,21 @@ print("\n==============\n")
 print("\n MUSIC PLAYER QUEUE: \n")
 music_player = PlayList()
 music_player.add_first_song("Hey Jude - The Beatles")
-music_player.add_first_song("Teen Spirit - Nirvana")
-music_player.add_first_song("Bohemian Rhapsody - Queen ")
-music_player.add_first_song("Lullaby - Atlas Bound")
-music_player.add_first_song("Space Song - Beach House")
-print(music_player)
+music_player.add_last_song("Teen Spirit - Nirvana")
+music_player.add_last_song("Bohemian Rhapsody - Queen ")
+music_player.add_last_song("Lullaby - Atlas Bound")
+music_player.add_last_song("Space Song - Beach House")
+print(music_player) 
 print("\n==============\n")
+"""
+OUTPUT:
+==============
+
+
+ MUSIC PLAYER QUEUE: 
+
+Hey Jude - The Beatles, Teen Spirit - Nirvana, Bohemian Rhapsody - Queen , Lullaby - Atlas Bound, Space Song - Beach House
+
+==============
+
+"""

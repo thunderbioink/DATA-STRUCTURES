@@ -72,19 +72,6 @@ class PlayList():
             # First song now points to new_song:
             self.last_song = new_song
     
-    def add_middle_song(self, song_name, new_song):
-        """ This method lets you add songs after the 
-        first_song in the playlist"""
-        #Call curent song located as first_song:
-        current_song = self.first_song
-        # CONTINUE HERE
-         
-    
-     
-    
-    
-            
-    #This method will iterate through input and yield all to user 
     def __iter__(self):
         
         song = self.first_song
@@ -102,9 +89,21 @@ print("\n==============\n")
 print("\n MUSIC PLAYER QUEUE: \n")
 music_player = PlayList()
 music_player.add_first_song("Hey Jude - The Beatles")
-music_player.add_first_song("Teen Spirit - Nirvana")
-music_player.add_first_song("Bohemian Rhapsody - Queen ")
-music_player.add_first_song("Lullaby - Atlas Bound")
-music_player.add_first_song("Space Song - Beach House")
-print(music_player)
+music_player.add_last_song("Teen Spirit - Nirvana")
+music_player.add_last_song("Bohemian Rhapsody - Queen ")
+music_player.add_last_song("Lullaby - Atlas Bound")
+music_player.add_last_song("Space Song - Beach House")
+print(music_player) 
 print("\n==============\n")
+"""
+OUTPUT:
+==============
+
+
+ MUSIC PLAYER QUEUE: 
+
+Hey Jude - The Beatles, Teen Spirit - Nirvana, Bohemian Rhapsody - Queen , Lullaby - Atlas Bound, Space Song - Beach House
+
+==============
+
+"""

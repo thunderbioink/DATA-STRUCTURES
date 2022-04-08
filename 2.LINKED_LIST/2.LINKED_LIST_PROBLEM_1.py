@@ -82,3 +82,29 @@ music_player.add_first_song("Lullaby - Atlas Bound")
 music_player.add_first_song("Space Song - Beach House")
 print(music_player)
 print("\n==============\n")
+"""
+OUTPUT PROBLEM #1:
+
+
+==============
+
+
+MUSIC PLAYER QUEUE:
+
+Space Song - Beach House, Lullaby - Atlas Bound, Bohemian Rhapsody - Queen , Teen Spirit - Nirvana, Hey Jude - The Beatles
+
+==============
+
+OBSERVE:
+
+
+Observe that the output of this playlist is backwards. It's what we need it to be,
+however, we want the first song on the list to be "Hey Jude - The Beatles" and the last song
+to be Space Song - Beach House
+
+Right now, each instance of adding first_song replaces the first_song, and pushes to the end
+of the list the original first song. 
+
+Continue to problem #2 to solve the problem.
+
+"""
