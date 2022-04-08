@@ -7,7 +7,7 @@ the method that displays your Binary Tree Data:
 You will have clues provided and you can use Problem#1 to solve display_binary_tree()
 method.
 
-USE SOLUTION TO COMAPRE YOUR WITH SOLUTION.
+USE SOLUTION FILE TO COMPARE WITH YOUR SOLUTION.
 GOOD LUCK!
 
 
