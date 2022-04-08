@@ -4,7 +4,8 @@ using Linked Lists.
 You will be able to solve Problem #2 with this example.
 
 The operators we will be handling are the following:
-Add Head song - insert(Node)
+Add Head song - insert front(Node), which is an O(1) for our Linked List Example.
+
 
 """
 # Playlist Class will be your LinkedList

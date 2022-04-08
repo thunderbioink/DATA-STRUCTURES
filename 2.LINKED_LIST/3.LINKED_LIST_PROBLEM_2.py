@@ -9,6 +9,9 @@ to be Space Song - Beach House
 Right now, each instance of adding first_song replaces the first_song, and pushes to the end
 of the list the original first song. 
 
+Add Head song - insert front(Node), which is an O(1) for our Linked List Example.
+Add Last song - insert last(Node), which is an O(1) for our Linked List Example.
+
 You will need to solve add_last_song() method to have the playlist music the order in which
 we actually want the music to display:
 
